@@ -1,0 +1,32 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/board_save_config">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="exit_save"
+            android:title="@string/board_config_exit_save"
+            app:summary="@string/board_config_exit_save_summary" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="player_loop"
+            android:title="@string/player_looping"
+            app:summary="@string/player_looping_summary" />
+        <PreferenceCategory android:title="@string/board_online_config">
+
+            <SwitchPreference
+                android:defaultValue="true"
+                android:key="battery_save"
+                android:title="@string/board_config_battery_save"
+                app:summary="@string/board_config_battery_save_summary" />
+            <SwitchPreference
+                android:defaultValue="true"
+                android:key="ask_join"
+                android:title="@string/board_config_ask_permissions"
+                app:summary="@string/board_config_ask_permissions_summary" />
+        </PreferenceCategory>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

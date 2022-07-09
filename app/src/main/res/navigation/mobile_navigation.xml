@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.divito.drawtogether.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_free_draw"
+        android:name="com.divito.drawtogether.ui.freedraw.FreeDrawFragment"
+        android:label="@string/menu_free_draw"
+        tools:layout="@layout/fragment_free_draw" />
+
+    <fragment
+        android:id="@+id/nav_picture_draw"
+        android:name="com.divito.drawtogether.ui.picturedraw.PictureDrawFragment"
+        android:label="@string/menu_picture_draw"
+        tools:layout="@layout/fragment_picture_draw" />
+</navigation>

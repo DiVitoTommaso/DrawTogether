@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">Draw Together</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Unknown</string>
+    <string name="nav_header_subtitle">unknown@example.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_free_draw">Free draw</string>
+    <string name="menu_picture_draw">Picture draw</string>
+    <string name="menu_whiteboard">Whiteboard menu</string>
+
+    <string name="login_error">Failed to connect to google account</string>
+    <string name="login_button">LOG IN</string>
+    <string name="login_text">Log in with your google account to share and draw with your friends!</string>
+    <string name="login_logo">Application logo</string>
+    <string name="exit">"Click again to exit"</string>
+
+    <string name="board_type_select">Whiteboard orientation</string>
+    <string name="board_online_config">Online options</string>
+    <string name="board_save_config">Whiteboard options</string>
+    <string name="board_config_orientation1">Vertical</string>
+    <string name="board_config_orientation2">Horizontal</string>
+    <string name="board_config_picture">SELECT PICTURE</string>
+    <string name="board_config_exit_save">Save on exit</string>
+    <string name="board_config_exit_save_summary">Save automatically when you close the project pressing back</string>
+    <string name="board_config_ask_permissions">Ask join</string>
+    <string name="board_config_ask_permissions_summary">Host must accept or reject join request to connect to the whiteboard. If this option is disabled every one can join without permissions</string>
+    <string name="board_config_battery_save">Battery save</string>
+    <string name="board_config_battery_save_summary">Use buffer during online session to save battery sending draw results only on touch release. If option is disabled every event will be sent immediately</string>
+
+    <string name="action_account">Change account</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_contact">Contact us</string>
+
+    <string name="title_settings">Settings</string>
+    <string name="title_online">Online</string>
+    <string name="cancel">Cancel</string>
+    <string name="title_sure">Are you sure?</string>
+    <string name="title_delete">Delete</string>
+    <string name="title_project">Project Title</string>
+
+    <string name="confirm_removal">Write project name to confirm removal</string>
+    <string name="picture_change">Click picture to change</string>
+    <string name="loading">LOADING…</string>
+    <string name="ok">OK</string>
+    <string name="title_missing">Missing project title</string>
+    <string name="title_rename">Rename?</string>
+    <string name="project_rename">Write project new name</string>
+    <string name="invalid_project_name">Invalid character \'/\'</string>
+    <string name="title_duplicate">Duplicate project name</string>
+    <string name="title_go_settings">Go to settings</string>
+    <string name="missing_board_type_select">Select whiteboard orientation</string>
+    <string name="no_bluetooth">Your device does not support bluetooth. You can\'t use online feature with this device</string>
+    <string name="title_no_bluetooth">Bluetooth not supported</string>
+    <string name="title_bluetooth_refused">Error</string>
+    <string name="bluetooth_refused">Bluetooth enable request refused</string>
+    <string name="title_room_join">Room join</string>
+    <string name="room_join">Write whiteboard host ID. host can find it in whiteboard menu</string>
+    <string name="bluetooth_permissions_refused">Bluetooth permissions refused</string>
+    <string name="saved">Project Saved successfully</string>
+    <string name="erasable">Picture erasable</string>
+    <string name="online_mode">Online</string>
+    <string name="online_ask">Do you want to enable online mode?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="saving">Saving, please wait…</string>
+    <string name="searching">Searching…</string>
+    <string name="error">Error</string>
+    <string name="client_mode">Cannot use online mode during guest sessions</string>
+    <string name="waiting">Waiting for accept…</string>
+    <string name="duplicate_search">Duplicate search</string>
+    <string name="already_search">Already searching. Please wait…</string>
+    <string name="duplicate_connect">Already connected</string>
+    <string name="already_connect">Already connected with a client</string>
+    <string name="title_assign_name">Project name</string>
+    <string name="project_name">Write project name</string>
+    <string name="connecting">Loading project…</string>
+    <string name="no_found">No device found</string>
+    <string name="no_device">Discovery found no device in 120s, please try again</string>
+    <string name="killed">Join request rejected</string>
+    <string name="discoverable">Discoverable request refused</string>
+    <string name="invalid_file_name">Project name cannot contains special chars</string>
+    <string name="no_audio">An error occurred while trying to reproduce the selected file. Please try again</string>
+    <string name="no_activity">Device does not support this function</string>
+    <string name="try_again">Internal error. Try again</string>
+    <string name="already_playing">Song is playing</string>
+    <string name="player_looping">Music player loop</string>
+    <string name="player_looping_summary">Play the last user selected song continuously until an explicit stop is received</string>
+    <string name="player">Do you want to stop it?</string>
+    <string name="battery">Playing music while battery is low is not suggested. Are you sure you want to continue anyaway?</string>
+    <string name="warning">Warning</string>
+    <string name="battery_bluetooth">Using bluetooth while battery is low is not suggested. Are you sure you want to continue anyway?</string>
+    <string name="channel_description">Whiteboard connection</string>
+    <string name="channel_name">Whiteboard</string>
+    <string name="whiteboard">Whiteboard</string>
+
+</resources>

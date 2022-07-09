@@ -1,0 +1,29 @@
+<resources>
+
+    <array name="icons">
+        <item>@drawable/ic_draw</item>
+        <item>@drawable/ic_color</item>
+        <item>@drawable/ic_save</item>
+        <item>@drawable/ic_font</item>
+        <item>@drawable/ic_music</item>
+        <item>@drawable/ic_share_black</item>
+        <item>@drawable/ic_online</item>
+        <item>@drawable/ic_erase</item>
+
+    </array>
+    <array name="colors">
+        <item>@color/light_blue_600</item>
+        <item>@android:color/holo_orange_dark</item>
+        <item>@android:color/holo_purple</item>
+        <item>@android:color/holo_red_dark</item>
+        <item>@color/nice_pink</item>
+        <item>@color/teal_700</item>
+        <item>@android:color/holo_green_dark</item>
+        <item>@android:color/holo_orange_light</item>
+    </array>
+
+    <string-array name="reply_values">
+        <item>reply</item>
+        <item>reply_all</item>
+    </string-array>
+</resources>
